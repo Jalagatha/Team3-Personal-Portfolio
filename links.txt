@@ -1,0 +1,5 @@
+deployed on vercel
+https://team3-personal-portfolio.vercel.app/
+githublink
+https://github.com/Jalagatha/Team3-Personal-Portfolio
+Task on trello
