@@ -12,7 +12,7 @@
   ## About
   ![This is the about page of the portfolio](./treelo/About.PNG)
   ## Blog
-  ![This is the blog page of the portfolio](./treelo/blog.PNG)
+  ![This is the blog page of the portfolio](./treelo/Blog.PNG)
 # Features
 - View Blog
 - View Works Done
