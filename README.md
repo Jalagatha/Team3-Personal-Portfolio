@@ -2,17 +2,17 @@
   This project  a collection of your work, experiences, and achievements that showcases A person's skills, expertise, and accomplishments.
   ## Home 
   
-  ![This is the main page of the portfolio](./home.PNG)
+  ![This is the main page of the portfolio](./treelo/home.PNG)
   ## Work
-  ![This is a collection of projects that I have worked on](./works.PNG)
+  ![This is a collection of projects that I have worked on](./treelo/works.PNG)
   ## Contact
-  ![This is the contact page of the portfolio](./contact.PNG)
+  ![This is the contact page of the portfolio](./treelo/contact.PNG)
   ## Services
-  ![This is the services page of the portfolio](./services.PNG)
+  ![This is the services page of the portfolio](./treelo/services.PNG)
   ## About
-  ![This is the about page of the portfolio](./about.PNG)
+  ![This is the about page of the portfolio](./treelo/About.PNG)
   ## Blog
-  ![This is the blog page of the portfolio](./blog.PNG)
+  ![This is the blog page of the portfolio](./treelo/blog.PNG)
 # Features
 - View Blog
 - View Works Done
