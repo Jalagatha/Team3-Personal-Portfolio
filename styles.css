@@ -1,3 +1,9 @@
+
+.section ,main{
+    top: 15px;
+    display: flex;
+}
+
 #About-me {
     display: flex;
     width: 85%;  
@@ -6,9 +12,27 @@
     gap: 8rem;
     
 }
-
+header h1{
+    margin-top: 25px;
+color: #101117;
+text-align: center;
+font-size: 35px;
+font-style: bold;
+font-weight: 500;
+}
+header p{
+    color: #101117;
+text-align: center;
+font-size: 28px;
+font-weight: 300;
+font-style: bold;
+}
+header h1{
+    color: #101117;
+    }
 #About-me img{
-    width: 60%;
+    width:auto;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -31,7 +55,7 @@
 /* blog styles */
 
 .heading-blog{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 10px;
     text-align: center;
@@ -40,18 +64,18 @@
 }
 .top-left,.top-right{
 display: flex;
-margin: 8%;
+margin: 20px;
 }
 .top-right{
     display: block;
     margin-top: auto;
-    margin-left: 0%;
+    
     
 }
 .top-left{
     display: block;
     margin-top: auto;
-    margin-right: 0%;
+    
 }
 .top-left h3{
     color:green;
@@ -92,22 +116,227 @@ margin: 8%;
     justify-content: center;
     
 }
-#container-div,p,i {
+#container-div p{
     color: white;
-    margin:  0px 15px ;
+    margin:  auto;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
 }
-.info,i{
+.info{
+    display: flex;
+    justify-content: center;
+    align-items:center
+
+    
+}
+.info i{
     align-items: center;
+    display: inline-block;
+    left: 0;
+    margin: 1px 15px 1px 15px ;
     justify-content: space-between;
-    margin-left: 10px;
+    right: 0;
+    
+    color: green;
 }
-i{
+/* i{
 color: green;
 padding: 10px;
 margin-left: 5px;
-}
+} */
 #container-div{
     text-align: center;
     margin: 5px;
    
 }
+
+
+
+/* nav */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    position:sticky;
+    background-color: #101117;
+}
+nav ul {
+display:flex ;
+align-items: center;
+}
+nav ul li{
+  display: inline-block;
+color: white;
+text-transform: uppercase;
+justify-content: space-between;
+align-items:end;
+margin: 15px;
+font-size: 17px;
+
+}
+nav ul li a{
+    margin: 5px;
+color: white;
+text-transform: capitalize;
+text-decoration: none;
+
+}
+nav div{
+    display: flex;
+    margin-right: 10px;
+}
+.div img{
+    width: 50px;
+    height:50px;
+    margin: 10px;
+    border-radius: 50%;
+
+
+}
+.active{
+    padding: 5px;
+    color: green;
+}
+.cv{
+    border : 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+margin:auto;
+    text-align: center;
+    
+}
+
+nav li a:hover{
+    padding: 5px;
+    color:green;
+    transition: all;
+    border : 2px solid gray;
+    border-radius: 5px;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+width: 100%;
+margin-bottom: 0;
+background-color: #5b5c62;
+padding: 25px 0;
+margin-top: 80px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+
+.footer-col{
+    padding: 0 15px;
+    width: 25%;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: red;
+    height: 4px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+padding-left: 8px;
+}
+
+.footer-col .social a i {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    transition: all 0.5s ease;
+    line-height: 40px;
+
+}
+/* background-color: rgba(255, 255, 255, 0.2); */
+.footer-col .social a  :hover{
+    color: #24262b;
+    background-color: white;
+}
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+    @media(max-width:574px){
+        .footer-col{
+            width: 100%;
+            
+        }
+
+}
+
