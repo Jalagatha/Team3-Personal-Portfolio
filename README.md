@@ -29,4 +29,10 @@
 2. Github Repository :
   For more Information the  Github Url :https://github.com/Jalagatha/Team3-Personal-Portfolio
 
+let imgElement=document.createElement('img')
+imgElement.setAttribute('src',"./img/logo.jpg")
+let parentElement=document.querySelector('body')
 
+parentElement.appendChild(imgElement)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element
